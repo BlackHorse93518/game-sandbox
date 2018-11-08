@@ -1,0 +1,111 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import '_modules/header/header.nunjucks' as header %}
+
+
+{% import '_modules/footer/footer.nunjucks' as footer %}
+
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+<main id="content" style="overflow-x:hidden">
+   
+    
+    <div class="banner-zone">
+        <div class="banner">
+            <div class="banner-center">
+                <img class="banner-center-lama" src="../images/lama.png"/>
+                <img class="banner-center-chara" src="../images/chara.png"/>
+                <div class="banner-center-text">
+                    <p class="banner-discover">DISCOVER THE</p>
+                    <p class="banner-sand">SAND</p>
+                    <p class="banner-box">BOX</p>
+                </div>
+                <a href="#" class="banner-center-btn creating-btn">start creating</a>   
+            </div>
+            <p class="banner-subtitle">{{_.banner.subtitle}}</p>
+            <img class="banner-mark" src="../images/mark-article.png" />
+        </div>
+
+    </div>
+
+    <div class="creator-zone">
+        <div class="creator">
+            <div class="creator-one">
+                <img class="creator-one-img" src="{{_.creator.one.image}}" />
+                <div class="creator-one-text">
+                    <p class="creator-one-text-title1">{{_.creator.one.title1}}</p>
+                    <p class="creator-one-text-title2">{{_.creator.one.title2}}</p>
+                    <p class="creator-one-text-content">{{_.creator.one.content}}</p>
+                    <a href="#" class="creating-btn">start creating</a>
+                </div>
+            </div>
+            <div class="creator-two">
+                <div class="creator-two-text">
+                    <p class="creator-two-text-title1">{{_.creator.two.title1}}</p>
+                    <p class="creator-two-text-title2">{{_.creator.two.title2}}</p>
+                    <p class="creator-two-text-content">{{_.creator.two.content}}</p>
+                    <a href="#" class="creating-btn">start creating</a>
+                </div> 
+                <img class="creator-two-img" src="{{_.creator.two.image}}" />
+            </div>
+        </div>
+    </div>
+
+    <div class="angle-border1"></div>
+    <div class="angle-border2"></div>
+
+    <div class="monetize-zone">       
+            <div class="monetize">
+                <div class="monetize-market">
+                    <img class="monetize-market-img" src="{{_.monetize.image}}" />
+                    <div class="monetize-market-text">
+                        <p class="monetize-market-text-title1">{{_.monetize.title1}}</p>
+                        <p class="monetize-market-text-title2">{{_.monetize.title2}}</p>
+                        <p class="monetize-market-text-content">{{_.monetize.content}}</p>
+                        <a href="#" class="creating-btn">start creating</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <div class="angle-bottom-border1"></div>
+    <div class="angle-bottom-border2"></div>
+    
+    <div class="step-zone">
+        <div class="step">
+            <p class="step-title">{{_.step.title}}</p>
+            <p class="step-text">{{_.step.text}}</p>
+            <div class="step-content">
+                {% for item in _.step.items %}
+                    <div class="step-item">
+                        <div class="step-item-image hexagon">
+                            <img class="hexagon-icon" src="{{item.image}}"/>
+                        </div>
+                        <p class="step-item-title">{{item.title}}</p>
+                        <p class="step-item-description">{{item.description}}</p>
+                        <a href="{{item.link}}" class="step-item-link">{{item.link_title}}</a>
+                    </div>
+                {% endfor %}
+            </div>  
+        </div>
+    </div>
+
+    <div class="lorem">
+        <div class="lorem-zone">
+            <p class="lorem-title">{{_.lorem.title}}</p>
+            <div class="lorem-content">
+                {% for item in _.lorem.items %}
+                    <img class="lorem-content-image" src="{{item.image}}" />
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="zone footer-zone">
+        {{ footer.content() }}
+    </div>
+</main>
+{% endblock %}

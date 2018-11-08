@@ -1,0 +1,257 @@
+{
+	"global": {
+		"lang": "en",
+		"titleTag": "The Sandbox",
+		"description": "Description",
+		"properties":[
+			{
+				"name":"og:title",
+				"content":"A Decentralized Gaming Ecosystem Made By Players" 
+			},
+			{
+				"name":"og:description",
+				"content":"The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!" 
+			},
+			{
+				"name":"og:url",
+				"content":"https://sandbox.game" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"The Sandbox" 
+			},
+			{
+				"name":"og:image",
+				"content":"http://www.sandbox.game/images/logo.png" 
+			}
+		],
+		"itemprops":[
+			{
+				"name":"name",
+				"content":"The Sandbox"
+			},
+			{
+				"name":"description",
+				"content":"The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!"
+			},
+			{
+				"name":"image",
+				"content":"http://www.sandbox.game/images/logo.png"
+			}
+		],
+		"twitters":[
+			{
+				"name":"twitter:title",
+				"content": "A Decentralized Gaming Ecosystem Made By Players."
+			},
+			{
+				"name":"twitter:description",
+				"content": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!"
+			},
+			{
+				"name":"twitter:card",
+				"content": "A Decentralized Gaming Ecosystem Made By Players."
+			},
+			{
+				"name":"twitter:site",
+				"content": "@thesandboxgame"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@thesandboxgame"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "http://www.sandbox.game/images/logo.png"
+			}
+
+
+		]
+	},
+
+	"header": {
+		"nav_list_skip": "Skip navigation",
+		"nav2":[
+			{
+				"name": "News",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "https://medium.com/sandbox-game"
+			},
+			{
+				"name": "Create",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "https://artists.sandbox.game/"
+			},
+			{
+				"name": "Marketplace",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "http://marketplace.sandbox.game:8080"
+			},
+			{
+				"name": "Game",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "game.html"
+			},
+			{
+				"name": "Editor",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_editor",
+				"url": "editor.html"
+			},
+			{
+				"name": "Whitepaper",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_inventors",
+				"url": "http://community.sandbox.game"
+			},
+			{
+				"name": "Team",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_team",
+				"url": "http://sandbox.game/aboutus.html"
+			},
+			{
+				"name": "FAQs",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_team",
+				"url": 	"http://sandbox.game/faqs.html"
+			}
+		],
+		"cta": "Join"
+	},
+
+	"banner": {
+
+		"title": "",
+	
+		"subtitle": "<b>The Sandbox offers a unique way to create, assemble and share 3D voxel models</b>. We empower Creators with intuitive, powerful content creation tools. You can make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace, for free! ",
+		"submenu": [
+
+		]
+	},
+
+	"creator":{
+		"one": {
+			"image": "../images/creator-desktop.png",
+			"title1": "join the new platform for",
+			"title2": "creators",
+			"content": "Animate your characters and see your voxel models come to life in your own crafted universe! Let players explore your creations in a brand new way!"
+		},
+		"two": {
+			"image": "../images/terraforming.png",
+			"title1": "terraform",
+			"title2": "your world",
+			"content": "Create assets in your favorite voxel editor, and export them into The Sandbox to create new universes. Share your work for free or monetize each asset: The choice is yours!"
+		}
+	},
+	"monetize":{
+		"image": "../images/Marketplace.png",
+		"title1": "monetize",
+		"title2": "your creations",
+		"content": "You can make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace, for free! See your creations come to life in gaming experiences while you get paid!"
+	},
+	"step": {
+		"title": "4 easy steps <b>to creation</b>",
+		"text": "<b>The Sandbox is made by gamers, for gamers.</b> The power of the platform, combined with an open asset market, allows artists to share and sell their content as we together build one of the largest online voxel communities",
+		"items": [
+			{
+				"title": "create",
+				"description": "Create your assets within your favorite voxel editor, and export them into The Sandbox",
+				"link_title": "> Discover how",
+				"link": "",
+				"image": "../images/icon-rotate.svg"
+			},
+			{
+				"title": "Assemble",
+				"description": "Assemble your own world without restrictions on canvas size!",
+				"link_title": "> The editor",
+				"link": "",
+				"image": "../images/icon-blocks.svg"
+			},{
+				"title": "share",
+				"description": "Share your creations and assets and watch the community bring them to life!",
+				"link_title": "> The community",
+				"link": "",
+				"image": "../images/icon-community.svg"
+			},
+			{
+				"title": "play",
+				"description": "The Sandbox allows players to create, share and discover new worlds everyday!",
+				"link_title": "> Play now",
+				"link": "",
+				"image": "../images/icon-play.svg"
+			}
+		]
+	},
+	"lorem": {
+		"title": "lorem ipsum <b>dolor sit</b>",
+		"items": [
+			{"image": "../images/winner.png"},
+			{"image": "../images/apple2013.png"},
+			{"image": "../images/apple2012.png"},
+			{"image": "../images/apple2017.png"}
+			
+		]
+	},
+	"footer": {
+		"social": [
+			{
+				"url": "http://t.me/sandboxgame",
+				"image": "../images/f-medium.png",
+				"alt": "Medium"
+			},
+			{
+				"url": "https://twitter.com/Pixowl",
+				"image": "../images/f-twitter.png",
+				"alt": "Twitter"
+			},
+			{
+				"url": "http://www.pixowl.com",
+				"image": "../images/f-pixowl.png",
+				"alt": "Pixowl website"
+			}
+
+		],
+		"pages1": [
+			{
+				"text": "News",
+				"url": "https://medium.com/sandbox-game"
+			},
+			{
+				"text": "Create",
+				"url": "https://artists.sandbox.game/"
+			},
+			{
+				"text": "Marketplace",
+				"url": "http://marketplace.sandbox.game:8080"
+			},
+			{
+				"text": "Game",
+				"url": "game.html"
+			}
+		],
+		"pages2": [
+			{
+				"text": "Editor",
+				"url": "editor.html"
+			},
+			{
+				"text": "Investors",
+				"url": "token.html"
+			},
+			{
+				"text": "Team",
+				"url": "aboutus.html"
+			},
+			{
+				"text": "FAQs",
+				"url": "faqs.html"
+			}
+		],
+		"copywrite": "Copyright © 2012-2018, The Sandbox. All Rights Reserved."
+	}
+}
